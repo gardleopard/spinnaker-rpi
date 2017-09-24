@@ -1,4 +1,6 @@
 
 node { 
-    sh 'script/build' 
+    sh '$WORKSPACE/script/build' 
 }
+
+
