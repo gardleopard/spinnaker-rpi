@@ -1,4 +1,4 @@
 
 node { 
-    echo 'Hello World' 
+    sh 'scrtip/build' 
 }
