@@ -1,5 +1,1 @@
-        stage('Build') {
-            steps {
-                "./script/build"
-            }
-        }
+sh 'script/build'
