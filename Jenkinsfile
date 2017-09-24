@@ -8,6 +8,7 @@ node {
     git  url: 'https://github.com/spinnaker/igor.git'
     sh "/bin/ls"
     sh "/bin/pwd"
+    sh "./gradlew buildDeb"
 }
 
 
