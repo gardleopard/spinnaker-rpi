@@ -1,4 +1,4 @@
 
 node { 
-    sh 'scrtip/build' 
+    sh 'script/build' 
 }
