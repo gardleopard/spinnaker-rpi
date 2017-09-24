@@ -1,9 +1,4 @@
-pipeline {
-    agent any
 
-    stages {
-        stage('Build') {
-            sh 'script/build'
-        }
-    }
+node { 
+    echo 'Hello World' 
 }
