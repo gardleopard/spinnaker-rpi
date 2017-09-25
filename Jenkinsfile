@@ -6,8 +6,10 @@ stage {
   build 'clouddriver'
   build 'front50'
   build 'orca'
-  build 'deck'
 }
 
+stage {
 
+  build 'deck'
+}
 
