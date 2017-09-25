@@ -1,5 +1,5 @@
 
-node { 
+stage { 
   build 'igor'
   build 'echo'
   build 'gate'
