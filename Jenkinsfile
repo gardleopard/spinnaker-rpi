@@ -1,14 +1,17 @@
 
-stage { 
-  build 'igor'
-  build 'echo'
-  build 'gate'
+stage('core') { 
   build 'clouddriver'
   build 'front50'
   build 'orca'
 }
 
-stage {
+stage('extras') {
+  build 'igor'
+  build 'echo'
+  build 'gate'
+}
+
+stage('frontend') {
 
   build 'deck'
 }
