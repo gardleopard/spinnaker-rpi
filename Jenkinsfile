@@ -15,5 +15,6 @@ stage('extras') {
 stage('frontend') {
 
   build 'deck'
+  build 'publish repo'
 }
 
