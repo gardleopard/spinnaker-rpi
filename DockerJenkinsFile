@@ -1,6 +1,5 @@
 
 stage('core') { 
-  build 'spinnaker-docker-raspbian'
   build 'clouddriver-docker-raspbian'
   build 'front50-docker-raspbian'
   build 'orca-docker-raspbian'
